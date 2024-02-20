@@ -10,10 +10,7 @@
       DTS:ConnectionString="Data Source=SIA09-ICPR01.SIHMIS.SI;User ID=UserPandaITF;Initial Catalog=SiIMC_MGHT;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Integration Services Project Git-{B7CF6E78-AD6E-42D4-B013-04257D90C81E}SIA09-ICPR01.SIHMIS.SI.SiIMC_MGHT.UserPandaITF;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1"
-        p4:Salt="mxeGpaQ/7rg="
-        p4:IV="vRotF3CUgVBaoMlGxDG4GQ=="
-        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">POy8l4ZOqxmSORas8LWaPqJXswVZbNSnnFXdzxwSQWcezdowgxH9J+D+nv20NTTpS6jZfh8hyNbi9iikmnAWfewghjAvTdYBcGw9gf2VTvA9Z9sJ8yQX7Jdu9N7CNVMiXzW2PKgFJYjJ8A6MmNW8liXWXeAQMgzWD0LIsTO33oY=</DTS:Password>
+        Sensitive="1"></DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
