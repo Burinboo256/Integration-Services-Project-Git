@@ -11,9 +11,9 @@
   DTS:LocaleID="1054"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:ProtectionLevel="0"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{ACF1EFAF-9509-430B-A1BC-3E7CA06A050E}">
+  DTS:ProtectionLevel="2"
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{0135CCA1-7880-42C0-8BB8-F61AA71B96C8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -26,7 +26,18 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=172.30.224.108;User ID=sidata;Initial Catalog=test;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{6DF5C0A5-5C25-4675-A1E9-79A3C4BE4454}172.30.224.108.test.sidata;" />
+          DTS:ConnectionString="Data Source=172.30.224.108;User ID=sidata;Initial Catalog=test;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{6DF5C0A5-5C25-4675-A1E9-79A3C4BE4454}172.30.224.108.test.sidata;">
+          <EncryptedData
+            Type="http://www.w3.org/2001/04/xmlenc#Element"
+            Salt="ihXQgyrhPtw="
+            IV="KaGLryEH2I1Uk2xneaUzXg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            <EncryptionMethod
+              Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+            <CipherData>
+              <CipherValue>KaGLryEH2I1Uk2xneaUzXlsQqf6NW1J12raiztp05+WoVgQrXgb5w84sY9M9gng2F7Sk/JLU1gJn0phQnGcyUe+QrxFtH32b2DhM0uc9eDA60bOZdqSFTTJGIdNrIDsJuYCtsvZqKa2DpnIWQyvhFZ5PqCn5OdN9KsF7kGjkLEu5FwsgCWaJnOg6bhflYRLv</CipherValue>
+            </CipherData>
+          </EncryptedData>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>

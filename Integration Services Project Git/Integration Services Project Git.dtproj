@@ -12,7 +12,7 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithPassword" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{efdc280b-df3d-4ba8-8793-a3322b74c1e1}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">Integration Services Project Git</SSIS:Property>
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-LL91TCR</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgTjg/oWNskiySIrXTDKnkgAAAAACAAAAAAADZgAAwAAAABAAAACVLPjYkMLdx9LBJ/IqdNagAAAAAASAAACgAAAAEAAAAKxfFGwt47lrB3Ih1KK8PvSIAAAACLXVJ3NEkrVR3Vvi977X9hO7qZGDqYZNoJD/yPvx9+wGeTs+Os0GY5v5uKu69Dzf07IiO6Nlyh31Rs0TqEf6UxF/lSxgjfgpcUNZb2lESYKDLv80ozi4yT4dQmwOXmd+x0BsKrbVEJ6lXAeIsqwcxZcpjQxPasmejAVRPV7MR+xT2Bt3IppVOBQAAAAlAGxkFOddkyO4rrKmSlSh2rVuyw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="HQdQAVosUhE=" SSIS:IV="0DLayM9RJ8HAAsOP0hDnNw==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">UI7opaxE1EDhBY0paJONqVxGhjSCM3iPCHv0e2m5XUQqVdxzvAtfkVB/KgJy/WKohYXBFgBApe1t6tXnTklxKS33PUEkUU385Y1k4nQZrwsPt+gRuYUzFwHjcVYyQ2Tw3TmpJM+A1JIep3/HTIuRDm3t4rIDtlh4DOmG9vqoFSV06tAZ+Ji5ljgX+5/7Z55L</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -194,14 +194,14 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{ACF1EFAF-9509-430B-A1BC-3E7CA06A050E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{0135CCA1-7880-42C0-8BB8-F61AA71B96C8}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
                 <SSIS:Parameter SSIS:Name="CM.172.30.224.108.test.sidata.ConnectByProxy">
