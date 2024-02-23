@@ -7,10 +7,10 @@
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=172.30.224.108;User ID=sidata;Initial Catalog=test;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Integration Services Project Git-{BD6C3642-2ED4-4B7B-8EDC-D9CF19790529}172.30.224.108.test.sidata;">
+      DTS:ConnectionString="Data Source=172.30.224.108;User ID=burin.boo;Initial Catalog=test;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Integration Services Project Git-{BD6C3642-2ED4-4B7B-8EDC-D9CF19790529}172.30.224.108.test.sidata;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgTjg/oWNskiySIrXTDKnkgAAAAACAAAAAAADZgAAwAAAABAAAAAYHpg61glNG/Mik0g7VXacAAAAAASAAACgAAAAEAAAAEdomwm5zbT73JwIgnrSYfx4AAAA7mb4bv089rhbNLzVb/SLo5kJkIKyvGrCP/zIy30PHTKwhtPAvMKbw14gUs++rpLvjPW1SnxCeAId6PwImzfUKF7pskumAi06EiKaCbjNAadKt7SH+DADoejM6JzKl9CRG6nPP/SwUm9MU44G1TTY7zg4MwY2s0+QFAAAAO5x+Frn3a4cO2wpmGqhzStypxMg</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgTjg/oWNskiySIrXTDKnkgAAAAACAAAAAAADZgAAwAAAABAAAAB2u4FcbBLjfdiRKOXylsFPAAAAAASAAACgAAAAEAAAAKUldY3NvyMU/cdO/V56Jk94AAAAyaQWbbd1TndRGAxjsrfOoqfNa+SoNmS/nJNxEOaYqL12d0Q5YI5ZO5kwCc7z7FnUa4uHQo/eWWq5jUOu3B2FqucFfxrGu+r+ZTTY8unWSzjjrgDc2ZuRYq9/0/gcoK7ige1E0Kv0NmrfY9aJ7E8YA+qCuw8EOaNoFAAAAB4laWgWH0h31O5zxFFuy4U8GSP7</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
