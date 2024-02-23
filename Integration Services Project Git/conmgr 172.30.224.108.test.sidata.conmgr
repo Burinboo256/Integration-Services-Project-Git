@@ -10,7 +10,7 @@
       DTS:ConnectionString="Data Source=172.30.224.108;User ID=burin.boo;Initial Catalog=test;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Integration Services Project Git-{BD6C3642-2ED4-4B7B-8EDC-D9CF19790529}172.30.224.108.test.sidata;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgTjg/oWNskiySIrXTDKnkgAAAAACAAAAAAADZgAAwAAAABAAAAAYHpg61glNG/Mik0g7VXacAAAAAASAAACgAAAAEAAAAEdomwm5zbT73JwIgnrSYfx4AAAA7mb4bv089rhbNLzVb/SLo5kJkIKyvGrCP/zIy30PHTKwhtPAvMKbw14gUs++rpLvjPW1SnxCeAId6PwImzfUKF7pskumAi06EiKaCbjNAadKt7SH+DADoejM6JzKl9CRG6nPP/SwUm9MU44G1TTY7zg4MwY2s0+QFAAAAO5x+Frn3a4cO2wpmGqhzStypxMg</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgTjg/oWNskiySIrXTDKnkgAAAAACAAAAAAADZgAAwAAAABAAAACiGKfr78+sxf+bd1u1ooljAAAAAASAAACgAAAAEAAAAMGhNnqxGW3ToEIrOqOHxTh4AAAADfN6xKxdGNSDae/DT0JmNiML/a2bVjz/i0QA8Cy7vFX8A5XlvXk3JA1e2rB3OO08UbbWHiDAtrI2Rg6aADeMD29b+vC4SvlE+yYZ3LjiNlv5mZ20zml2N/jgykEX+u3sT0wQy6c3bbsY76izM6QzkpDbyuvGpPdTFAAAANnPM87UOhfTM3R4IQpfNJvbk+bH</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
